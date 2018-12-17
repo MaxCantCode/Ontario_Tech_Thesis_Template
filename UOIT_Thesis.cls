@@ -184,4 +184,9 @@ University of Ontario Institute of Technology \\
 \clearpage
 }
 
+% Change chapter header to 'Appendix' for appendices
+\makeatletter
+\g@addto@macro{\appendix}{\renewcommand\chaptername{Appendix}}
+\makeatother
+
 \endinput
