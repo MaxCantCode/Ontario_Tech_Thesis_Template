@@ -49,7 +49,7 @@
 % Define headers / footers
 \pagestyle{fancy}
 \renewcommand{\chaptermark}[1]{\markboth{\chaptername \ \thechapter: #1}{}}
-\lhead{\small \leftmark}
+\lhead{\small \nouppercase{\leftmark}}
 \chead{}
 \rhead{\small \thepage}
 \lfoot{}
